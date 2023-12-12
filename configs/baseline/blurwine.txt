@@ -1,0 +1,56 @@
+num_gpu = 1
+
+datadir=./data/synthetic/blurwine
+dataset_type = llff
+dataset_name = synthetic
+factor = 1
+llffhold = 8
+interp_video
+
+architecture = plenoxel
+
+curve_order = 9
+
+#Save
+i_weights = 5000
+i_video = 5000 #5000
+i_cam = 5000
+
+# Optimization
+N_rand = 25000
+N_iters = 200000
+
+upsamp_every = 40000
+hard_sample_ratio=0.0
+
+mlp_optimizer = adam
+
+lrate = 5e-4
+lr_sigma = 3e1
+lr_sh = 1e-2
+
+lambda_tv=5e-4
+lambda_tv_sh=5e-3
+
+tv_early_only = 0
+init_sigma = 1e-4
+lambda_sparsity 1e-12
+thresh_type = sigma
+
+background_brightness = 0.5
+
+# Training
+tone_mapping_type = none
+kernel_aggregate_type = mean
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+# Blur Kernel
+kernel_start_iter = 5000
+kernel_type = camtrajectorykernel
+kernel_ptnum = 21
+
+recenter_traj
+
+render_rmnearplane = 10
