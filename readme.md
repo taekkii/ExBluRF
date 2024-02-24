@@ -10,7 +10,7 @@ You can get Exblur dataset from here: [download](https://drive.google.com/drive/
 #### Local Setup
 
 ```shell
-git clone https://github.com/taekkii/gs_taek.git --recursive
+git clone https://github.com/taekkii/ExBluRF.git
 cd ExBluRF
 conda env create --file environment.yml
 conda activate exblurf
