@@ -2,9 +2,9 @@
 # ExBluRF
 This is official implementation of [ExBluRF: Efficient Radiance Fields for Extreme Motion Blurred Images](https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_ExBluRF_Efficient_Radiance_Fields_for_Extreme_Motion_Blurred_Images_ICCV_2023_paper.pdf) (ICCV 2023).
 
-### Quickstart
+## Quickstart
 
-#### Local Setup
+### Local Setup
 
 ```shell
 git clone https://github.com/taekkii/ExBluRF.git
