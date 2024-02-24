@@ -65,7 +65,7 @@ If you find this useful, please consider citing our paper:
 
 
 ## Acknowledge
-This source code is derived from the famous pytorch reimplementation of [DeblurNeRF](https://github.com/limacv/Deblur-NeRF) and [Plenoxels](https://github.com/sxyu/svox2).
+This source code is derived from the implementation of [DeblurNeRF](https://github.com/limacv/Deblur-NeRF) and [Plenoxels](https://github.com/sxyu/svox2).
 We appreciate the effort of the contributor to that repository.
 
 
