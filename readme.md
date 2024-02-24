@@ -13,7 +13,7 @@ conda env create --file environment.yml
 conda activate exblurf
 ```
 
-#### Exblur Dataset
+### Exblur Dataset
 
 You can download Exblur dataset from [here](https://drive.google.com/drive/folders/1zTLW9kPe8lVgl8U2RkSHI4Tm5HyuCAon?usp=sharing)
 Extreme synthetic can be also found from above link.
@@ -35,7 +35,7 @@ Download and place the directory under this repo in below format
 ./data/real_camera_motion_blur
 ```
 
-### train & evaluate
+### Train & Evaluate
 
 ```shell
 bash eval_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
@@ -43,7 +43,7 @@ bash eval_synthetic.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # exblur
 bash eval_real.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # synthetic
 ```
 
-### train
+### Train Only
 
 ```shell
 bash run_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
