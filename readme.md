@@ -38,17 +38,17 @@ Download and place the directory under this repo in below format
 ### Train & Evaluate
 
 ```shell
-bash eval_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
-bash eval_synthetic.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # exblur
-bash eval_real.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # synthetic
+bash eval_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # exblur
+bash eval_synthetic.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # synthetic
+bash eval_real.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
 ```
 
 ### Train Only
 
 ```shell
-bash run_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
-bash run_synthetic.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # exblur
-bash run_real.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # synthetic
+bash run_exblur.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # exblur
+bash run_synthetic.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # synthetic
+bash run_real.sh ${GPU} ${EXPNAME} ${SCENE_NAME} # real-motion-blur
 ```
 
 
