@@ -24,6 +24,7 @@ Download and place it under this repo in below format
 ./data/exblur
 ./data/synthetic
 ```
+Note that "train.txt" is unused component of data-loading.
 
 ### DeblurNeRF Dataset
 
