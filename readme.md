@@ -28,7 +28,7 @@ Note that "train.txt" is unused component of data-loading.
 
 ### DeblurNeRF Dataset
 
-You can download REAL Camera Motion Blur dataset from DeblurNeRF authors' drive: [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx).
+You can download Real Camera Motion Blur dataset from DeblurNeRF authors' drive: [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx).
 We thank for [DeblurNeRF](https://github.com/limacv/Deblur-NeRF) authors for providing the dataset.
 
 Download and place the directory under this repo in below format
